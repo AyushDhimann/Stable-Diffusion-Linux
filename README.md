@@ -31,7 +31,7 @@ Just follow the guide for your specific machine.
 git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Diffusion-Linux && chmod +x linux.sh && sudo ./linux.sh
 ```
 
-2. Check the console and you should see a jupyter notebook access link like ``http://localhost:8888/?token=c8de56fa... ``
+2. Check the console and you should see a jupyter notebook access link like ``http://127.0.0.1:8888/?token=c8de56fa... ``
 
 3. Now open the ``RunStableDiffusion.ipynb`` and skip to the Usage section.
 
@@ -47,7 +47,27 @@ git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Di
 
 3. Now open the ``RunStableDiffusion.ipynb`` and skip to the Usage section.
 
-### 3. On Google Colab
+### 2.1 On a Server with Port Forwarding
+
+This method is safer as it does not expose your jupyter notebook publically(even though it requires a unique token).
+
+1. Connect to your server using your preferred SSH Client.
+
+2. Copy and Paste the below command in your console and run it.
+    ```
+   git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Diffusion-Linux && chmod +x linux.sh && sudo ./linux.sh
+    ```
+3.  Open a new terminal in your local system and run the following:
+   ``` ssh -L 8888:localhost:8888 root@<YOUR-SERVER-IP/URL> ```
+Replace the `` <YOUR-SERVER-IP/URL>`` with you actual Server IP/URL and then provide the server's password on the next step.
+This will route a path from the server's localhost to your localhost.
+
+5. Go back to the main console and you should see a jupyter notebook access link like ``http://127.0.0.1:8888/?token=c8de56fa... ``
+
+6. Now open the ``RunStableDiffusion.ipynb`` and skip to the Usage section.
+
+
+### 4. On Google Colab
 
 1. Open this link https://colab.research.google.com/github/AyushDhimann/Stable-Diffusion-Linux/blob/main/RunStableDiffusionOnColab.ipynb
    
