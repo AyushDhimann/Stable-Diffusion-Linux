@@ -13,11 +13,11 @@ Install Automatic1111's Stable Diffusion WebUI on any Linux machine, whether loc
 
 ## Requirements
 
-1. Should have port 8888 open in network firewall (for jupyter server)
-2. The Download link of your model (not the model page)
-3. Basic understanding of Jupyter Notebook
-4. Previous experience with Automatic1111
-5. If running on Google Colab, Colab Pro is mandatory
+1. Ensure port 8888 is open in the network firewall (for Jupyter server).
+2. Have the direct download link for your model (not the model page).
+3. Basic understanding of Jupyter Notebook.
+4. Previous experience with Automatic1111.
+5. If running on Google Colab, Colab Pro is mandatory.
 
 ## Installation
 
