@@ -93,7 +93,7 @@ This will route a path from the server's localhost to your localhost.
 
 Check the load and usage of your CPU and GPU:
 
-1. Open a new terminal on the same machine.
+1. Open a new terminal of the same machine.
 
 2. Navigate to the directory where this repository is installed.
 3. Run this command
