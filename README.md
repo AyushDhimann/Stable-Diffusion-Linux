@@ -29,7 +29,7 @@ Install Automatic1111's Stable Diffusion WebUI on any Linux machine, whether loc
 #### 1. Locally on Linux
 
 1. Open your terminal and run this command to automatically install and run the Jupyter notebook
-```
+```bash
 git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Diffusion-Linux && chmod +x linux.sh && sudo ./linux.sh
 ```
 
@@ -42,7 +42,7 @@ git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Di
 1. Connect to your server using your preferred SSH Client.
 
 2. Copy and Paste the below command in your console and run it.
-    ```
+    ```bash
    git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Diffusion-Linux && chmod +x server.sh && sudo ./server.sh
     ```
 2. Check the console and you should see a jupyter notebook access link like ``http://<YOUR-IP>:8888/?token=c8de56fa... ``
@@ -56,11 +56,11 @@ This method is safer as it does not expose your jupyter notebook publically(even
 1. Connect to your server using your preferred SSH Client.
 
 2. Copy and Paste the below command in your console and run it.
-    ```
+    ```bash
    git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Diffusion-Linux && chmod +x linux.sh && sudo ./linux.sh
     ```
 3.  Open a new terminal in your local system and run the following:
-   ```
+   ```bash
   ssh -L 8888:localhost:8888 <SERVER-USERNAME>@<YOUR-SERVER-IP/URL>
    ```
 Replace the `` <YOUR-SERVER-IP/URL>`` AND ``<SERVER-USERNAME>`` with you actual Server IP/URL and user, then provide the server's password on the next step.
@@ -99,7 +99,7 @@ Check the load and usage of your CPU and GPU:
 
 2. Navigate to the directory where this repository is installed.
 3. Run this command
-   ```
+   ```bash
    ./status.sh
    ```
 
