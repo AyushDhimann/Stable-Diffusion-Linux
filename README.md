@@ -60,7 +60,9 @@ This method is safer as it does not expose your jupyter notebook publically(even
    git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Diffusion-Linux && chmod +x linux.sh && sudo ./linux.sh
     ```
 3.  Open a new terminal in your local system and run the following:
-   ``` ssh -L 8888:localhost:8888 <SERVER-USERNAME>@<YOUR-SERVER-IP/URL> ```
+   ```
+  ssh -L 8888:localhost:8888 <SERVER-USERNAME>@<YOUR-SERVER-IP/URL>
+   ```
 Replace the `` <YOUR-SERVER-IP/URL>`` AND ``<SERVER-USERNAME>`` with you actual Server IP/URL and user, then provide the server's password on the next step.
 This will route a path from the server's localhost to your localhost.
 
