@@ -49,7 +49,7 @@ git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Di
 
 ### 2.1 On a Server with Port Forwarding
 
-This method is safer as it does not expose your jupyter notebook publically(even though it requires a unique token).
+This method is safer as it does not expose your jupyter notebook publically(even though it requires a unique access token).
 
 1. Connect to your server using your preferred SSH Client.
 
