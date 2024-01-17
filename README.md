@@ -68,7 +68,7 @@ git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Di
 # Resource Usage 
 
 (Not for Google Colab Users)
-To check the load and usage of your CPU and GPU by following these steps:
+You can check the load and usage of your CPU and GPU by following these steps:
 
 1. Open a new terminal for the same machine
 2. Switch to the directory where this repo is installed
