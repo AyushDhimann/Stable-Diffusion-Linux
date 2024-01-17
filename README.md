@@ -43,7 +43,7 @@ git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Di
     ```
    git clone https://github.com/AyushDhimann/Stable-Diffusion-Linux && cd Stable-Diffusion-Linux && chmod +x server.sh && sudo ./server.sh
     ```
-2. Check the console and you should see a jupyter notebook access link like ``http://localhost:8888/?token=c8de56fa... ``
+2. Check the console and you should see a jupyter notebook access link like ``http://<YOUR-IP>:8888/?token=c8de56fa... ``
 
 3. Now open the ``RunStableDiffusion.ipynb`` and skip to the Usage section.
 
